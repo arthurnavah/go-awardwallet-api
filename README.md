@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	clientAward := awardwallet.NewClient("https://business.awardwallet.com/api/export/v1/account/1", "1010")
+    clientAward := awardwallet.NewClient("https://business.awardwallet.com/api/export/v1/account/1", "1010")
 
     responseAward, errAward, err := clientAward.GetAccountDetails()
 
