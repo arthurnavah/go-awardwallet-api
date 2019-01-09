@@ -8,9 +8,9 @@ import (
 
 //Client Cliente de la API
 type Client struct {
-	host   string
-	apikey string
-	client *http.Client
+	host   string       // URL de la API
+	apikey string       // API Key
+	client *http.Client // Cliente HTTP para realizar consultas
 }
 
 //NewClient Constructor Client

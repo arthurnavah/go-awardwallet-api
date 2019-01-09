@@ -1,9 +1,11 @@
 package awardwallet
 
+//Error Respusta de error
 type Error struct {
 	Error string `json:"error"`
 }
 
+//Response Respuesta exitosa
 type Response struct {
 	Account       Account       `json:"account"`
 	ConnectedUser ConnectedUser `json:"connectedUser"`
